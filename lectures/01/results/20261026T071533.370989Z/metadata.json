@@ -1,0 +1,24 @@
+{
+  "started_at": "2026-10-26T07:15:33.370Z",
+  "models": [
+    "gemini-3.1-flash-lite"
+  ],
+  "questions": [
+    "LoRAとは何ですか？",
+    "AIE2026の講座の宿題にある「3レベル」とは何ですか？"
+  ],
+  "repetitions_per_model_question": 3,
+  "planned_trials": 6,
+  "first_model_by_repetition": {
+    "1": "gemini-3.1-flash-lite",
+    "2": "gemini-3.1-flash-lite",
+    "3": "gemini-3.1-flash-lite"
+  },
+  "delay_between_trials_seconds": 20,
+  "timeout_per_trial_seconds": 45,
+  "generation_settings": "app.ask defaults; no generation settings overridden",
+  "process_elapsed_seconds_definition": "Parent-side subprocess.run duration, including process startup and completion.",
+  "api_elapsed_seconds_definition": "app.ask elapsed_seconds for generate_content only.",
+  "python_version": "3.12.15",
+  "google_genai_version": "2.31.0"
+}
